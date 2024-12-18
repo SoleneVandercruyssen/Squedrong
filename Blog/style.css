@@ -1,6 +1,113 @@
-header {
-  justify-content: space-between;
-}
 ul {
   list-style-type: none;
+}
+/* General Reset */
+* {
+  background-color: white;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin-left: 25%;
+  margin-right: 25%;
+  background-color: white;
+  color: #333;
+  line-height: 1.6;
+  display: inline-block;
+}
+
+/* Header */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f8f8f8;
+}
+
+header nav ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+header nav ul li a {
+  text-decoration: none;
+  font-size: 1rem;
+  font-weight: bold;
+  color: #555;
+}
+
+header nav ul li a.active {
+  color: #d84792;
+}
+section {
+  display: inline-block;
+  text-align: left;
+  background-color: #fff;
+}
+/* Hero Section */
+.hero {
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px 10%;
+  background-color: white;
+}
+
+.hero-text h1 {
+  color: #d84747;
+  font-size: 2.5rem;
+  font-family: "Abril Fatface", serif;
+}
+
+.hero-text p {
+  margin: 15px 0;
+  color: #555;
+  font-size: 1rem;
+}
+p {
+  margin: 15px 0;
+  color: #555;
+  font-family: "montserrat", serif;
+}
+
+.social-links .btn {
+  margin-top: 20px;
+  display: inline-block;
+  margin-right: 10px;
+  padding: 10px 20px;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.btn-twitter {
+  background-color: #1da1f2;
+}
+.btn-linkedin {
+  background-color: #0077b5;
+}
+.btn-medium {
+  background-color: #000;
+}
+
+.hero-image img {
+  width: 900px;
+  align-content: center;
+}
+
+.about h1 {
+  color: #d84747;
+  margin-top: 50px;
+}
+.about {
+  width: 50%;
+}
+h2 {
+  color: #0018b5;
+}
+.section2 {
+  display: flex;
+  justify-content: space-between;
 }
