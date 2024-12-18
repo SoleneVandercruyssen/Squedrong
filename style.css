@@ -1,0 +1,62 @@
+body{
+
+
+margin-left: 17%;
+margin-right: 17%;
+
+}
+
+ul {
+float: right;
+text-decoration: none;
+
+}
+
+#Logo{
+
+width: 120px;
+float: left;
+
+}
+
+#twitter{
+color: white;
+background-color: deepskyblue;
+border: 0px;
+padding: 20px;
+}
+
+#linkedin{
+
+color: white;
+background-color: rgb(72, 72, 194);
+border: 0px;
+padding: 20px;
+}
+
+#medium{
+
+color: white;
+background-color: rgb(0, 0, 0);
+border: 0px;
+padding: 20px;
+}
+
+
+h1{
+
+font-size: xx-large;
+
+}
+
+#illustration{
+
+float: right;
+width: 225px;
+}
+
+.Photo{
+
+width: 200px;
+
+}
