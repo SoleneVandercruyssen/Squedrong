@@ -1,15 +1,27 @@
 body{
-
-
 margin-left: 17%;
 margin-right: 17%;
 
+
+}
+  nav a  {
+  color: #000;
+  text-decoration: none;
+  font-family: Montserrat;
 }
 
-ul {
-float: right;
-text-decoration: none;
 
+nav ul  {
+  color: black;
+  text-align: right;
+justify-content: space-between;
+list-style-type: none;
+
+}
+
+nav li{
+  display: inline-block;
+  padding: 2%;
 }
 
 #Logo{
@@ -19,11 +31,26 @@ float: left;
 
 }
 
+.paragraphe{
+align-items: flex-start;
+display: flex;
+justify-content: space-between;
+}
+
+.éléments{
+  align-items: flex-start;
+  display: flex;
+  justify-content: space-between;
+
+}
+
 #twitter{
 color: white;
 background-color: deepskyblue;
 border: 0px;
+width: 150px;
 padding: 20px;
+text-align: center;
 }
 
 #linkedin{
@@ -31,7 +58,10 @@ padding: 20px;
 color: white;
 background-color: rgb(72, 72, 194);
 border: 0px;
+width: 150px;
 padding: 20px;
+text-align: center;
+
 }
 
 #medium{
@@ -39,24 +69,42 @@ padding: 20px;
 color: white;
 background-color: rgb(0, 0, 0);
 border: 0px;
+width: 150px;
 padding: 20px;
+text-align: center;
 }
 
 
 h1{
-
+color: rgb(153, 73, 73);
 font-size: xx-large;
 
 }
 
-#illustration{
 
-float: right;
-width: 225px;
-}
-
-.Photo{
+h2{
 
 width: 200px;
+text-align: center;
+font-family: Abril Fatface;
 
+}
+
+h3{
+
+color: red;
+
+}
+
+.illustration{
+margin-right: 10%;
+}
+
+
+.Photo{
+width: 500px;
+}
+
+.Photo_2{
+  width: 500px;
 }
