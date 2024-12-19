@@ -45,8 +45,6 @@ margin-right: 18%;
 } 
 
   #first{
-
-  text-align: justify;
   margin-right: 22%;
 
 }
@@ -74,45 +72,48 @@ margin-right: 18%;
   text-align: justify;
 }
 
-#twitter{
-  color: white;
-  background-color: rgb(63, 190, 233);
-  border: 0px;
-  width: 150px;
-  padding: 20px;
-  text-align: center;
-}
-
 #logo_2{
 
   background-color:rgb(63, 190, 233) ;
 }
 
 .socialmedia {
+  margin-top: 20px;
+  display: inline-block;
+  margin-right: 10px;  
+}
+
+#Twitter{
+  color: white;
+  background-color: rgb(63, 190, 233);
   border: 0px;
   width: 150px;
   padding: 20px;
   text-align: center;
+  text-decoration: none;
+
 }
 
-#linkedin{
-
+#Linkedin{
+  
   color: white;
   background-color: rgb(49, 107, 182);
   border: 0px;
   width: 150px;
   padding: 20px;
   text-align: center;
+  text-decoration: none;
 }
 
-#medium{
-
+#Medium{
+  
   color: white;
   background-color: rgb(0, 0, 0);
   border: 0px;
   width: 150px;
   padding: 20px;
   text-align: center;
+  text-decoration: none;
 }
 
 
@@ -133,6 +134,11 @@ h1{
 
 .paragraphe h2 {
 margin-top: -20px;
+}
+
+.paragraphe p {
+text-align: justify;
+
 }
 
 h3{
