@@ -1,0 +1,87 @@
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  background: #f4f4f9;
+  color: #333;
+}
+
+.container {
+  width: 40%;
+  max-width: 1200px;
+  margin: 20px auto;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #ffffff;
+}
+
+form {
+  background: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+form label {
+  display: block;
+  margin-bottom: 5px;
+  padding: 0;
+}
+
+form input,
+form textarea,
+form button {
+  width: 100%;
+  margin-bottom: 20px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+form button {
+  background: #5cb85c;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+form button:hover {
+  background: #4cae4c;
+}
+
+.container .box {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  background: #ffffff00;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  color: #ffffff;
+}
+
+.container .box .icon {
+  font-size: 30px;
+  margin-right: 15px;
+  color: #5cb85c;
+}
+
+.container .box h3 {
+  margin: 0;
+  font-size: 18px;
+}
+
+.container .box p {
+  margin: 0;
+}
+main {
+  display: flex;
+  background-image: url(/dp-big-portfolio-07-1024x683.jpg);
+}
+header {
+  background-color: #000000;
+}
