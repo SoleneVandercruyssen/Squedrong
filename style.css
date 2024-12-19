@@ -1,33 +1,25 @@
 body{
 margin-left: 17%;
 margin-right: 17%;
+}
 
+#blog{
+
+  color: rgb(72, 72, 194);
 
 }
 
-.abril-fatface-regular {
-  font-family: "Abril Fatface", serif;
-  font-weight: 400;
-  font-style: normal;
-}
-
-@font-face {
-  font-family:"Abril Fatface", serif ;
-  src: url(.abril-fatface-regular);
-}
-
-  nav a  {
+nav a  {
   color: #000;
   text-decoration: none;
-  font-family: Montserrat;
+  font-size: smaller;
 }
-
 
 nav ul  {
   color: black;
   text-align: right;
-justify-content: space-between;
-list-style-type: none;
+  justify-content: space-between;
+  list-style-type: none;
 
 }
 
@@ -38,15 +30,40 @@ nav li{
 
 #Logo{
 
-width: 120px;
-float: left;
+  width: 120px;
+  float: left;
 
 }
 
+p{
+  text-align: justify;
+}
+
+  .éléments p {
+
+margin-right: 18%;
+} 
+
+  #first{
+
+  text-align: justify;
+  margin-right: 22%;
+
+}
+
+.lien{
+
+  color: rgb(236, 84, 135);
+}
+
+*{
+  font-family: "Montserrat";
+}
+
 .paragraphe{
-align-items: flex-start;
-display: flex;
-justify-content: space-between;
+  align-items: flex-start;
+  display: flex;
+  justify-content: space-between;
 }
 
 .éléments{
@@ -57,67 +74,63 @@ justify-content: space-between;
 }
 
 #twitter{
-color: white;
-background-color: deepskyblue;
-border: 0px;
-width: 150px;
-padding: 20px;
-text-align: center;
+  color: white;
+  background-color: deepskyblue;
+  border: 0px;
+  width: 150px;
+  padding: 20px;
+  text-align: center;
 }
 
 #linkedin{
 
-color: white;
-background-color: rgb(72, 72, 194);
-border: 0px;
-width: 150px;
-padding: 20px;
-text-align: center;
-
+  color: white;
+  background-color: rgb(72, 72, 194);
+  border: 0px;
+  width: 150px;
+  padding: 20px;
+  text-align: center;
 }
 
 #medium{
 
-color: white;
-background-color: rgb(0, 0, 0);
-border: 0px;
-width: 150px;
-padding: 20px;
-text-align: center;
+  color: white;
+  background-color: rgb(0, 0, 0);
+  border: 0px;
+  width: 150px;
+  padding: 20px;
+  text-align: center;
 }
 
 
 h1{
-color: rgb(153, 73, 73);
-font-family: "Abril Fatface";
-font-size: xx-large;
-
+  color: rgb(236, 84, 135);
+  font-family: "Abril Fatface";
+  font-weight: 600;
+  font-size:xx-large;
 }
 
+#title{
 
-h2{
-
-width: 200px;
-text-align: center;
-font-family: Abril Fatface;
-
+  width: 200px;
+  font-weight: 500;
+  font-size: xx-large;
+  color: #000;
 }
 
 h3{
-
-color: red;
-
+  color: rgb(236, 84, 135);
 }
 
 .illustration{
-margin-right: 10%;
+  margin-right: 10%;
+  margin-left: 10%;
 }
 
-
 .Photo{
-width: 500px;
+  width: 570px;
 }
 
 .Photo_2{
-  width: 500px;
+  width: 570px;
 }
