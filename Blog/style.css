@@ -84,7 +84,6 @@ p {
   padding: 10px 20px;
   color: #fff;
   text-decoration: none;
-  border-radius: 5px;
 }
 
 .btn-twitter {
@@ -112,7 +111,7 @@ p {
   font-size: 0.8rem;
 }
 h2 {
-  color: #0018b5;
+  color: rgb(72, 72, 194);
 }
 .section2 {
   display: flex;
