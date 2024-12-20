@@ -37,13 +37,13 @@ body {
   margin-right: 10%;
   font-family: "montserrat", sans-serif;
   line-height: 1.6;
-  color: rgb(209, 209, 209);
+  color: white;
   background-color: white;
   text-align: center;
 }
 main {
   justify-content: space-between;
-  height: 1000px;
+  height: 1500px;
   background-size: 100%;
 }
 
@@ -59,7 +59,7 @@ h2 {
   margin-right: 250px;
   text-align: center;
 }
-/Footer */ footer {
+footer {
   text-align: center;
   padding: 1rem 0;
   color: black;
