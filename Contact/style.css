@@ -26,12 +26,12 @@ header nav ul {
   list-style: none;
   display: flex;
   gap: 20px;
+  margin-right: 20px;
 }
 
 header nav ul li a {
   text-decoration: none;
-  font-size: 1rem;
-  font-weight: bold;
+  font-size: smaller;
   color: #555;
 }
 #logo {
@@ -39,7 +39,7 @@ header nav ul li a {
 }
 
 header nav ul li a.active {
-  color: #d84792;
+  color: rgb(72, 72, 194);
 }
 
 h1 {
@@ -108,4 +108,5 @@ main {
 }
 header {
   background-color: #000000;
+  margin-right: 2%;
 }
